@@ -14,10 +14,10 @@ import com.praveenit.repo.EmployeeRepository;
 
 @Repository
 public class RunnerInfo implements CommandLineRunner {
-
+long b=45;
 	@Autowired
 	private EmployeeRepository emprepo;
-	long b=2;
+	
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
