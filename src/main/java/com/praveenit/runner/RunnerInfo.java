@@ -14,7 +14,7 @@ import com.praveenit.repo.EmployeeRepository;
 
 @Repository
 public class RunnerInfo implements CommandLineRunner {
-
+long b=45;
 	@Autowired
 	private EmployeeRepository emprepo;
 	
