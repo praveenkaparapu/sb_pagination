@@ -23,6 +23,8 @@ public class RunnerInfo implements CommandLineRunner {
 		// TODO Auto-generated method stub
 	int i=10;
 int k=11;
+		int j=11;
+
 	
 		Pageable pageable= PageRequest.of(2, 5);
 		Page<Employee> page=emprepo.findAll(pageable);
