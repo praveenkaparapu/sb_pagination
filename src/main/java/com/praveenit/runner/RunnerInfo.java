@@ -18,6 +18,8 @@ public class RunnerInfo implements CommandLineRunner {
 	@Autowired
 	private EmployeeRepository emprepo;
 	
+long a=12;
+
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
