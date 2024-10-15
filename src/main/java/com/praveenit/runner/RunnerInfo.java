@@ -22,6 +22,7 @@ public class RunnerInfo implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 	int i=10;
+		int j=11;
 	
 		Pageable pageable= PageRequest.of(2, 5);
 		Page<Employee> page=emprepo.findAll(pageable);
