@@ -5,7 +5,16 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Application {
+
 //aa-102
+
+
+//AA-101
+M1()
+{
+//AA-101;
+}
+
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 int k=1;
